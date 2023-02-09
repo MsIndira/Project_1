@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@500;700&display=swap");
+* {
+    box-sizing: border-box;
+    border: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section1 {
+    background: url("../image/section1-background.jpg");
+    background-size: cover;
+    padding: 161px 0 281px 0;
+}
+.section-1__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214e41;
+    max-width: 540px;
+    margin-bottom: 40px;
+}
+.section-1__text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #214e41;
+}
+.section-1__input {
+    background: #ffffff;
+    border-radius: 6px 0px 0px 6px;
+    padding: 20px 88px 20px 20px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #161616;
+}
+.section1__button {
+    background: #43806c;
+    border-radius: 0px 6px 6px 0px;
+    padding: 20px 35px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+}
+.section1__button:hover{
+    cursor: pointer;
+    opacity: 0.95;
+    box-shadow: 0 2px 8px #444;
+}
