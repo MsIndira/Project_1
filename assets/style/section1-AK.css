@@ -60,24 +60,25 @@
 /*Область с абсолютным позиционированием*/
 .properties{
     position:absolute;
-    top:463px;
+    top:465px;
     display:flex;
     align-items:center;
     justify-content: space-between;
     max-width:1200px;
     background-color:#ffffff;
     padding:52px 69px 48px 50px;
-    box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+    box-shadow: 1px 1px 10px rgba(209, 207, 207, 0.9);
 border-radius: 6px;
 }
 .properties__wrap{
     display:inline-block;
 }
-.properties__item{
-
+.properties__item:not(:last-child){
+margin-right: 42px;
 }
 .properties__item img{
     vertical-align: top !important;
+    margin-right: 3px;
 }
 .properties__title{
     font-family: 'Raleway';
@@ -85,6 +86,7 @@ border-radius: 6px;
     font-weight: 400;
     font-size: 16px;
     color: #214E41;
+    margin-bottom: 0.3rem !important;
 }
 .properties__text{
     font-family: 'Raleway';
