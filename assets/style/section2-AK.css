@@ -1,0 +1,56 @@
+.section2__content {
+    padding: 213px 0 120px 180px;
+}
+.section2__description {
+    max-width: 478px;
+    display: inline-block;
+    margin-right: 90px;
+}
+.section2__description h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214e41;
+    margin-bottom: 34px !important;
+}
+.section2__description p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02px;
+    color: #757575;
+    margin-bottom: 24px;
+}
+.section2__description p:first-child {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: #43806c;
+    margin-bottom: 20px;
+}
+.section2__description a {
+    text-decoration: none;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02px;
+    color: #214e41;
+    display: block;
+    max-width: 107px;
+}
+.section2__description a:hover{
+    background: url("../image/greenline.svg") no-repeat bottom;
+}
+.section2 img {
+    vertical-align: top !important;
+}
