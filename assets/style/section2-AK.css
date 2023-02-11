@@ -8,7 +8,6 @@
 }
 .section2__description h2 {
     font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 46px;
@@ -17,7 +16,6 @@
 }
 .section2__description p {
     font-family: "Raleway";
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -27,7 +25,6 @@
 }
 .section2__description p:first-child {
     font-family: "Raleway";
-    font-style: normal;
     font-weight: 400;
     font-size: 13px;
     letter-spacing: 0.05px;
@@ -38,7 +35,6 @@
 .section2__description a {
     text-decoration: none;
     font-family: "Raleway";
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;

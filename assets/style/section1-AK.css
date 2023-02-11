@@ -15,7 +15,8 @@
 .section1__content{
     padding: 161px 0 281px 0px;
 }
-.section-1__title h1 {
+/* .section-1__title  */
+.section1__content h1 {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
@@ -60,19 +61,16 @@
     position: absolute;
     top: 625px;
     display: flex;
-    /* align-items: center;
-    justify-content: space-between; */
-    /* max-width: 1200px; */
     background-color: #ffffff;
     padding: 52px 69px 48px 50px;
     box-shadow: 1px 1px 10px rgba(209, 207, 207, 0.9);
     border-radius: 6px;
 }
-.properties__wrap {
-    display: inline-block;
-}
 .properties__item:not(:last-child) {
     margin-right: 42px;
+}
+.properties__wrap {
+    display: inline-block;
 }
 .properties__item img {
     vertical-align: top !important;
