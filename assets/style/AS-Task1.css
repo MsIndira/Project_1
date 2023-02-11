@@ -1,0 +1,84 @@
+img.logo {
+    width: 75px;
+    height: 22px;
+    }
+    
+
+.container {
+    max-width: 1440px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 31px;
+}
+.boxlogo {
+    padding-left: 45px;
+    padding-top: 34px;
+}
+.navigation {
+    width: 584px;
+    padding-right: 69px;
+    padding-top: 29px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+    
+.navigation li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.navigation a {
+    color: #214E41;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    border-bottom: 3px solid #43806C;
+}
+
+.button {
+    box-sizing: border-box;
+    width: 137px;
+    height: 40px;
+    background: #43806C;;
+    border-radius: 6px;
+    padding-top: 10px;
+    margin-left: 69px;
+    margin-top: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.582);
+}
+
+.button:active {
+    background: #FFFFFF;
+    color: #43806C;
+    border: 3px solid #43806C;
+    padding-top: 8px;
+    box-shadow: none;
+}
+
+.blockControl {
+    width: 117px;
+    height: 20px;
+    padding-right: 78px;
+    
+}
+
