@@ -40,6 +40,12 @@
   letter-spacing: 0.05px;
   text-transform: uppercase;
   color: #214e41;
+  margin-bottom: 20px;
+}
+
+.benefits__left_frame div {
+  display: flex;
+  flex-direction: column;
 }
 
 .benefits__left_frame a {
