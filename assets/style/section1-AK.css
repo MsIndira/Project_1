@@ -5,7 +5,7 @@
 }
 .container1 {
     position: relative;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .section1 {
@@ -14,7 +14,7 @@
     
 }
 .section1__content{
-    padding: 161px 0 281px 120px;
+    padding: 161px 0 281px 0px;
 }
 .section-1__title h1 {
     font-family: "Roboto";
