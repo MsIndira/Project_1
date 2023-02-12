@@ -41,6 +41,7 @@ color: #214E41;
     display: block;
     width: 355px;
     height: 236px;
+    margin: 40px;
 }
 
 .card-title{
