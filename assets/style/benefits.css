@@ -1,38 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
 
-.benefits {
+.container3 {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
+.benefits {
+  background: linear-gradient(to right, #e3eeed 50%, #214e41 50%);
+}
+
 .benefits__left {
-  background-color: #e3eeed;
+  padding: 120px 0;
 }
 
-.benefits__left_frame {
-  padding: 120px;
-}
-
-.benefits__right {
-  background-color: #214e41;
-}
-.benefits__right_frame {
-  padding: 160px 120px 208px 115px;
-}
-
-.benefits__right_frame p {
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 34px;
-  letter-spacing: 0.02px;
-  color: #ffffff;
-}
-.benefits__right_frame p:first-of-type {
-  margin-bottom: 34px;
-}
-
-.benefits__left_frame h6 {
+.benefits__left h6 {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 13px;
@@ -43,12 +29,12 @@
   margin-bottom: 20px;
 }
 
-.benefits__left_frame div {
+.benefits__left div {
   display: flex;
   flex-direction: column;
 }
 
-.benefits__left_frame a {
+.benefits__left a {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 32px;
@@ -57,6 +43,22 @@
   text-decoration: none;
   padding: 0 0 18px;
 }
-.benefits__left_frame a:first-of-type {
+.benefits__left a:first-of-type {
   font-weight: 700;
+}
+
+.benefits__right {
+  padding: 160px 0 208px 110px;
+}
+
+.benefits__right p {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+}
+.benefits__right p:first-of-type {
+  margin-bottom: 34px;
 }
