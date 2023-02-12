@@ -1,52 +1,59 @@
+section {
+  box-sizing: border-box;
+}
+
 .container6 {
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  
 }
 
-h3 {
+.wrapper6{
+    display: flex;
+    background: #E3EEED;
+ }
 
-  position: absolute;
-  height: 138px;
-  left: 20%;
-  right: 9.5%;
-  top: 0px;
+h1 {
+  display: flex;
   font-family: "Roboto";
   font-style: normal;
-  font-size: 36px
+  font-size: 36px;
   font-weight: 700;
   line-height: 46px;
-
   color: #214e41;
+  align-items: center;
 }
 
-.text6{
-    position: absolute;
-height: 138px;
-left: 20%;
-right: 9.5%;
-top: 0px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 46px;
-color: #214E41;
+.h2 {
+  display: flex;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214e41;
+  align-items: center;
 }
 
-.button6{
-    box-sizing: border-box;
-    background: #43806C;
-    border: 1px solid #43806C;
-    border-radius: 6px;
+.button6 {
+  display: block;
+  mix-blend-mode: normal;
+  background: #43806c;
+  border: 1px solid #43806c;
+  border-radius: 6px;
+  text-decoration: none;
+ 
+  text-align: center;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+}
 
-    text-align: center;
-letter-spacing: 0.02px;
-
-color: #FFFFFF;
-
-
+.button6 :hover {
+  text-decoration: underline;
 }
