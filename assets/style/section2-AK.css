@@ -1,5 +1,5 @@
 .section2__content {
-    padding: 213px 0 120px 70px;
+    padding: 213px 0 120px 60px;
 }
 .section2__description {
     max-width: 478px;
@@ -49,4 +49,5 @@
 }
 .section2 img {
     vertical-align: top !important;
+    max-width: 100%;
 }
