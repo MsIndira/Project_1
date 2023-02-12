@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.footer img.logo {
+    width: 98px;
+    height: 28px;
+}
+
+.footer .container {
+    max-width: 1440px;
+    height: 788px;
+    margin: 0 auto;
+    background-color: #214E41;
+}
+
+.footer .boxlogo {
+    padding-left: 45px;
+}
+
+.footer p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    color: #FFFFFF;
+}
+
+/* 
+.header .navigation {
+    width: 584px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+    
+.header li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.header a {
+    color: #214E41;
+    text-decoration: none;
+}
+
+.header a:hover {
+    border-bottom: 3px solid #43806C;
+}
+
+.header .boxButton{
+    padding-bottom: 15px;
+}
+
+.header .button {
+    box-sizing: border-box;
+    width: 137px;
+    height: 40px;
+    background: #43806C;;
+    border-radius: 6px;
+    padding-top: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+.header .button:hover {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.582);
+}
+.header .button:active {
+    background: #FFFFFF;
+    color: #43806C;
+    border: 3px solid #43806C;
+    padding-top: 8px;
+    box-shadow: none;
+}
+
+.header .blockControl {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding-right: 78px;
+    padding-bottom: 15px;
+}
+
+.logIn {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #214E41;
+    cursor: pointer;
+}
+
+.language {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #214E41; 
+    text-transform: uppercase; 
+    cursor: pointer;
+} */
