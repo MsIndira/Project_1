@@ -57,9 +57,10 @@
 
 .coverage__container_item2 p {
   font-family: "Raleway";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
   letter-spacing: 0.02px;
-  color: #757575;
+  color: #214e41;
+  padding-top: 13px;
 }
