@@ -51,3 +51,8 @@
     vertical-align: top !important;
     max-width: 100%;
 }
+@media screen and (max-width: 487px){
+    .section2__content {
+        padding: 300px 0 120px 60px;
+    }
+}
