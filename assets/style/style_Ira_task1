@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@500;700&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+.container5 {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.carousel-inner{
+    align-self: center;
+    margin-top: 281px;
+}
+.caroisel-item {
+    display: none;
+    
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 120px;
+    
+    
+width: 313px;
+height: 46px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+color: #214E41;
+}
+
+hr {
+position: absolute;
+width: 100%;
+height: 3px;
+left: 45px;
+right: 45px;
+top: 345.66px;
+
+background: rgba(199, 199, 199, 0.37);
+border-radius: 0px;
+}
+.row{
+    margin-top: 120px;
+
+}
+.card{
+display: flex;
+justify-content: space-around;
+}
+
+.card-link{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 18px;
+
+/* identical to box height, or 164% */
+letter-spacing: 0.05px;
+text-transform: uppercase;
+
+color: #43806C;
+}
+.card-title{
+    position: absolute;
+    height: 78px;
+    left: 0.1%;
+    right: 3.57%;
+    top: 289.66px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    
+    /* or 130% */
+    
+    color: #214E41;
+     
+}
+
+.card-img-top{
+    width: 350px;
+    height: 237px;
+    border-radius: 0px;
+
+}
