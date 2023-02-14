@@ -5,15 +5,15 @@
     height: 28px;
 }
 
-.footer .container {
-    max-width: 1440px;
-    height: 788px;
-    margin: 0 auto;
-    background-color: #214E41;
-}
-
-.footer .boxlogo {
-    padding-left: 45px;
+.footer h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .footer p {
@@ -26,90 +26,105 @@
     color: #FFFFFF;
 }
 
-/* 
-.header .navigation {
-    width: 584px;
-}
-
-.header ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-}
-    
-.header li {
+.footer p.text {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
-.header a {
-    color: #214E41;
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 40px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF;
     text-decoration: none;
 }
 
-.header a:hover {
-    border-bottom: 3px solid #43806C;
+.footer a:hover {
+    border-bottom: 0.5px solid #FFFFFF;
 }
 
-.header .boxButton{
-    padding-bottom: 15px;
+.footer .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #214E41;
 }
 
-.header .button {
-    box-sizing: border-box;
-    width: 137px;
-    height: 40px;
-    background: #43806C;;
-    border-radius: 6px;
-    padding-top: 10px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF;
-    text-align: center;
-    cursor: pointer;
-}
-.header .button:hover {
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.582);
-}
-.header .button:active {
-    background: #FFFFFF;
-    color: #43806C;
-    border: 3px solid #43806C;
-    padding-top: 8px;
-    box-shadow: none;
-}
-
-.header .blockControl {
+.footer .blockTop {
     display: flex;
     justify-content: space-between;
-    width: 150px;
-    padding-right: 78px;
-    padding-bottom: 15px;
+    padding: 100px 120px;
 }
 
-.logIn {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 20px;
-    color: #214E41;
-    cursor: pointer;
+.footer .blockItems {
+    width: 41%;
+    display: flex;
+    align-items: flex-start;
 }
 
-.language {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 20px;
-    color: #214E41; 
-    text-transform: uppercase; 
-    cursor: pointer;
-} */
+.footer .itemLogo {
+    width: 33%;
+}
+
+.footer .itemList1 {
+    width: 33%;
+    flex-direction: column;
+    padding-left: 70px;   
+}
+
+.footer .itemList2 {
+    width: 33.33%;
+    flex-direction: column;
+    padding-left: 100px; 
+}
+
+.footer .line {
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0 120px;
+}
+
+.footer .blockBottom {
+    padding: 73px 120px 50px 120px;
+}
+
+.footer .blockContent1 {
+    padding-bottom: 90px;
+}
+
+.footer .blockContent2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .blockSupscript {
+    width: 33%;
+}
+
+.footer .intut {
+    width: 355px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+}
+
+.footer .social {
+    display: flex;
+    padding-top: 30px;
+}
