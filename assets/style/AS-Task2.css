@@ -119,12 +119,36 @@
 }
 
 .footer .intut {
-    width: 355px;
-    height: 52px;
-    border: 1px solid #FFFFFF;
+    width: 341px;
+    height: 50px;
+    display: flex;
 }
 
 .footer .social {
     display: flex;
     padding-top: 30px;
 }
+
+/* стиль для инпута */
+.footer input[type="email"] {
+    border: 1px solid #FFFFFF; 
+    padding: 10px; 
+    background-color: transparent; 
+    color: #FFFFFF; 
+    width: 300px; 
+    outline: none; 
+}
+
+  /* стиль для кнопки-стрелки */
+.footer input[type="submit"] {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF; 
+    padding: 10px; 
+    margin-left: -4px;
+    cursor: pointer; 
+}
+
+.footer input::placeholder {
+    color: #fff;
+}
+
