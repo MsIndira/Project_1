@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.employers {
+  background-image: url(../images/background_enroll.png);
+  background-size: cover;
+  margin-bottom: 120px;
+}
+
+.employers__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 125px 0 114px;
+}
+
+.employers__container span {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806c;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.employers__container h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214e41;
+  max-width: 391px;
+  margin-bottom: 34px;
+}
+
+.employers__container p {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+  max-width: 491px;
+  margin-bottom: 26px;
+}
+
+.employers__container a {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02px;
+  color: #214e41;
+  display: block;
+  max-width: 100px;
+}
+
+.employers__container a:hover {
+  background: url(../images/estick.svg) no-repeat bottom;
+}
