@@ -10,6 +10,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.claims__container_image {
+  margin: 0 auto;
+}
+
 .claims__container_text span {
   font-family: "Raleway";
   font-weight: 900;
@@ -19,7 +23,7 @@
   text-transform: uppercase;
   color: #43806c;
   display: inline-block;
-  margin-bottom: 20px;
+  margin: 68px 0 20px;
 }
 
 .claims__container_text h3 {
