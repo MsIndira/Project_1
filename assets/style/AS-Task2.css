@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.footer img.logo {
+    width: 98px;
+    height: 28px;
+}
+
+.footer h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    color: #FFFFFF;
+}
+
+.footer p.text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 40px;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    border-bottom: 0.5px solid #FFFFFF;
+}
+
+.footer .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #214E41;
+}
+
+.footer .blockTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 120px;
+}
+
+.footer .blockItems {
+    width: 41%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer .itemLogo {
+    width: 33%;
+}
+
+.footer .itemList1 {
+    width: 33%;
+    flex-direction: column;
+    padding-left: 70px;   
+}
+
+.footer .itemList2 {
+    width: 33.33%;
+    flex-direction: column;
+    padding-left: 100px; 
+}
+
+.footer .line {
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0 120px;
+}
+
+.footer .blockBottom {
+    padding: 73px 120px 50px 120px;
+}
+
+.footer .blockContent1 {
+    padding-bottom: 90px;
+}
+
+.footer .blockContent2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .blockSupscript {
+    width: 33%;
+}
+
+.footer .intut {
+    width: 341px;
+    height: 50px;
+    display: flex;
+}
+
+.footer .social {
+    display: flex;
+    padding-top: 30px;
+}
+
+/* стиль для инпута */
+.footer input[type="email"] {
+    border: 1px solid #FFFFFF; 
+    padding: 10px; 
+    background-color: transparent; 
+    color: #FFFFFF; 
+    width: 300px; 
+    outline: none; 
+}
+
+  /* стиль для кнопки-стрелки */
+.footer input[type="submit"] {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF; 
+    padding: 10px; 
+    margin-left: -4px;
+    cursor: pointer; 
+}
+
+.footer input::placeholder {
+    color: #fff;
+}
+

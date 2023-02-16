@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Roboto:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.claims__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.claims__container_image {
+  margin: 0 auto;
+}
+
+.claims__container_text span {
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806c;
+  display: inline-block;
+  margin: 68px 0 20px;
+}
+
+.claims__container_text h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214e41;
+  margin: 0 83px 34px 0;
+}
+
+.claims__container_text p {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+  margin: 0 21px 26px 0;
+}
+
+.claims__container_text a {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+  letter-spacing: 0.02px;
+  color: #214e41;
+  display: block;
+  max-width: 105px;
+  margin: 0 469px 120px 0;
+}
+
+.claims__container a:hover {
+  background: url(../image/astick.svg) no-repeat bottom;
+}
