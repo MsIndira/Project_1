@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@500;700&display=swap");
+* {
+    box-sizing: border-box;
+    border: none;
+}
+.container1 {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section1 {
+    background: url("../image/section1-background.jpg");
+    background-size: cover;
+}
+.section1__content{
+    padding: 161px 0 281px 0px;
+}
+.section1__content h1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214e41;
+    max-width: 540px;
+    margin-bottom: 40px;
+}
+.section-1__text {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #214e41;
+    margin-bottom: 16px;
+}
+.section-1__input {
+    background: #ffffff;
+    border-radius: 6px 0px 0px 6px;
+    padding: 20px 98px 20px 20px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 14px;
+    color: #161616;
+}
+.section1__button {
+    background: #43806c;
+    border-radius: 0px 6px 6px 0px;
+    padding: 20px 35px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+}
+.section1__button:hover {
+    cursor: pointer;
+    opacity: 0.95;
+    box-shadow: 0 2px 8px #444;
+}
+/*Область с абсолютным позиционированием*/
+.properties {
+    position: absolute;
+    top: 625px;
+    display: flex;
+    background-color: #ffffff;
+    padding: 52px 69px 48px 50px;
+    box-shadow: 1px 1px 10px rgba(209, 207, 207, 0.9);
+    border-radius: 6px;
+}
+.properties__item:not(:last-child) {
+    margin-right: 42px;
+}
+.properties__wrap {
+    display: inline-block;
+}
+.properties__item img {
+    vertical-align: top !important;
+    margin-right: 3px;
+}
+.properties__title {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    color: #214e41;
+    margin-bottom: 0.3rem !important;
+}
+.properties__text {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #214e41;
+    max-width: 276px;
+    margin-bottom: 0 !important;
+}
