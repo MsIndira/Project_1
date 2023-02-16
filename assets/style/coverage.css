@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.coverage__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.coverage__container_item1 {
+  margin: 120px 0 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.item1_text span {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806c;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.item1_text h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214e41;
+  margin: 0 44px 34px 0;
+}
+
+.item1_text p {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+  margin: 0 49px 42px 0;
+}
+
+.coverage__container_item2 {
+  margin: 0 0 120px;
+  display: flex;
+  align-items: center;
+}
+
+.coverage__container_item2 div:not(:last-child) {
+  margin-right: 50px;
+}
+
+.coverage__container_item2 p {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.02px;
+  color: #214e41;
+  padding-top: 13px;
+}
