@@ -3,7 +3,7 @@
 .container5 {
     box-sizing: border-box;
     position: relative;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -34,10 +34,11 @@ border-radius: 0px;
   width: 365px;
   height: 375px;
  margin: 120px 176px 146px 119px;
-   
+ border-radius: 0;
+ border: none;
 }
 .card-link{
-    padding: 20px 0 10px;
+padding: 20px 0 10px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
