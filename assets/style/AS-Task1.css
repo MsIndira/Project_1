@@ -50,13 +50,12 @@
     padding-bottom: 15px;
 }
 
-.header .button {
+.header button {
     box-sizing: border-box;
     width: 137px;
     height: 40px;
-    background: #43806C;;
+    background: #43806C;
     border-radius: 6px;
-    padding-top: 10px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -66,14 +65,13 @@
     text-align: center;
     cursor: pointer;
 }
-.header .button:hover {
+.header button:hover {
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.582);
 }
-.header .button:active {
+.header button:active {
     background: #FFFFFF;
     color: #43806C;
     border: 3px solid #43806C;
-    padding-top: 8px;
     box-shadow: none;
 }
 
