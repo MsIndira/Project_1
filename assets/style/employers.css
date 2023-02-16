@@ -5,7 +5,7 @@
 }
 
 .employers {
-  background-image: url(../images/background_enroll.png);
+  background-image: url(../image/background_enroll.png);
   background-size: cover;
   margin-bottom: 120px;
 }
@@ -63,5 +63,5 @@
 }
 
 .employers__container a:hover {
-  background: url(../images/estick.svg) no-repeat bottom;
+  background: url(../image/estick.svg) no-repeat bottom;
 }
