@@ -133,3 +133,9 @@
     color: #214E41; 
     cursor: pointer;
 }
+
+@media (max-width: 1023px) {
+    .header .navigation {
+        width: 440px;
+    }
+}
