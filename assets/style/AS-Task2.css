@@ -5,6 +5,11 @@
     height: 28px;
 }
 
+.footer .social img {
+    width: 26px;
+    cursor: pointer;
+}
+
 .footer h3 {
     font-family: 'Raleway';
     font-style: normal;
@@ -62,10 +67,13 @@
     border-bottom: 0.5px solid #FFFFFF;
 }
 
+.footer {
+    background-color: #214E41;
+}
+
 .footer .container {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: #214E41;
 }
 
 .footer .blockTop {
@@ -126,7 +134,9 @@
 
 .footer .social {
     display: flex;
+    justify-content: space-between;
     padding-top: 30px;
+    max-width: 130px;
 }
 
 /* стиль для инпута */
