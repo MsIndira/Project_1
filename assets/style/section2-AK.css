@@ -2,7 +2,7 @@
     padding: 213px 0 120px 60px;
 }
 .section2__description {
-    max-width: 478px;
+    max-width: 45%;
     display: inline-block;
     margin-right: 90px;
 }
@@ -49,10 +49,19 @@
 }
 .section2 img {
     vertical-align: top !important;
-    max-width: 100%;
+    max-width: 45%;
 }
-@media screen and (max-width: 487px){
-    .section2__content {
-        padding: 300px 0 120px 60px;
+@media screen and (max-width: 1024px) and (min-width:768px){
+    .section2__description{
+        max-width: 60%;
+        margin-left: 50px;
+
+    }
+    .section2__description a{
+        max-width: 90px;
+    }
+    .section2 img {
+        max-width: 70%;
+        margin-left: 50px;
     }
 }
