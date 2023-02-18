@@ -3,7 +3,6 @@
 .container5 {
     box-sizing: border-box;
     position: relative;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -31,10 +30,9 @@ background: rgba(199, 199, 199, 0.37);
 border-radius: 0px;
 }
 .card{
-  width: 365px;
-  height: 375px;
- 
- border-radius: 0;
+max-width: 365px;
+  max-height: 375px;
+  border-radius: 0;
  border: none;
 }
 .card-link{
@@ -61,8 +59,8 @@ color: #43806C;
 }
 
 .card-img-top{
-    width: 350px;
-    height: 237px;
+    max-width: 350px;
+    max-height: 237px;
     border-radius: 0px;
 }
 
@@ -110,4 +108,16 @@ color: #43806C;
     justify-content: space-between;
     margin: 120px auto !important;
 }
- 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container5 {
+    max-width: 1024px;
+      }
+  }
+
+  @media screen and (min-width: 1024px){
+    .container5 {
+      max-width: 1200px;
+       }
+            }
+  
+  
