@@ -133,3 +133,27 @@
     color: #214E41; 
     cursor: pointer;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header .boxlogo {
+        padding:0 0 18px 10px;
+    }
+    
+    .header .navigation {
+        width: 50%;
+    }
+    
+    .header button {
+        width: 125px;
+        height: 35px;
+    }
+
+    .header .blockControl {
+        width: 16%;
+        padding-right: 10px;
+    }
+    
+    .header select.language {
+        padding: 0 15px;
+    }
+}
