@@ -5,10 +5,13 @@
     height: 22px;
 }
 
+.header {
+    background-color: #FFFFFF;
+}
+
 .header .container {
     max-width: 1440px;
     margin: 0 auto;
-    background: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,4 +133,3 @@
     color: #214E41; 
     cursor: pointer;
 }
-
