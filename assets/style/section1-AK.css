@@ -60,10 +60,12 @@
     position: absolute;
     top: 625px;
     display: flex;
+    justify-content: space-between;
     background-color: #ffffff;
     padding: 52px 69px 48px 50px;
     box-shadow: 1px 1px 10px rgba(209, 207, 207, 0.9);
     border-radius: 6px;
+    max-width: 1200px;
 }
 .properties__item:not(:last-child) {
     margin-right: 42px;
@@ -91,3 +93,17 @@
     max-width: 276px;
     margin-bottom: 0 !important;
 }
+@media screen and (max-width: 1024px) and (min-width:768px){
+    .container1{
+        margin: 0 35px;
+    }
+    .section1__content{
+        padding: 110px 0 190px 0;
+    }
+    .properties {
+        top: 480px;
+        padding: 30px 50px 30px 50px;
+    }
+}
+
+
